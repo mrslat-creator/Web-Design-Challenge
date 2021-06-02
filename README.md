@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
 
-You can use the [editor on GitHub](https://github.com/mrslat-creator/Web-Design-Challenge/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <title>Latitude-Latitude Analysis Dashboard With Attitude</title>
 
-### Markdown
+  </head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+<nav class="navbar navbar-default">
+   <div class="container">
+      <a class="navbar-brand text-white" href="index.html" >Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation"></button>    
+          <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown"
+                 <a class="nav-link dropdown-toggle" href="#"id="navbarDropdown" role="button" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+                     Plots
+                 </a> 
+                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                     <a class="dropdown-item" href="humidity.html">Humidity</a>
+                     <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                     <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                 </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+                          
+          </ul>
+      </div>
+   </div> 
+</nav>
+<!--temprature content adjustments-->
+<div class="container content">
+    <div class="row>"
+        <div class="col-md-8">
+            <div class="col-md-12">
+                <hr3>Max Temperature</hr3>
+                <hr>
+                <img src="Resourses/assets/images/Fig1.png" width="100%" alt="temperature">
+                <br>
+                <p>As expected, the weather becomes significantly warmer as you approach the equator (Deg. Latitude). More interestingly, however, is the fact that the Southern Hemisphere is warmer this time of year than the Northern Hemisphere. This due to the tilt of the Earth at the time of year this data was gathered.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--visualizations container -->
+<div class="col-md-4">
+    <div class="col-md-12">
+         <h3>Visualizations</h3>
+         <hr>
+         <div class="col-3 col-md-6">
+             <a href="temp.html"><img class="pic" src="Resources/assets/images/fig1.png" width="100%" alt="temprature"></a>
+         </div>
+        
+         <div class="col-3 col-md-6">
+            <a href="humidity.html"><img class="pic" src="Resources/assets/images/fig2.png" width="100%" alt="humidity"></a>
+         </div>
+        
+         <div class="col-3 col-md-6">
+            <a href="cloudiness.html"><img class="pic" src="Resources/assets/images/fig3.png" width="100%" alt="cloudiness"></a>
+         </div>
+        
+         <div class="col-3 col-md-6">
+            <a href="windspeed.html"><img class="pic" src="Resources/assets/images/fig4.png" width="100%" alt="windspeed"></a>
+         </div>
+    </div>
+</div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+</body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrslat-creator/Web-Design-Challenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
